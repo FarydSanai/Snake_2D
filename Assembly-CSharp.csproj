@@ -64,10 +64,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Snake_2D\Scripts\CameraUpdate.cs" />
     <Compile Include="Assets\Snake_2D\Scripts\GameAssets.cs" />
     <Compile Include="Assets\Snake_2D\Scripts\GameHandler.cs" />
-    <Compile Include="Assets\Snake_2D\Scripts\LevelGrid.cs" />
-    <Compile Include="Assets\Snake_2D\Scripts\SnakeControl.cs" />
+    <Compile Include="Assets\Snake_2D\Scripts\LevelGrid\GridNode.cs" />
+    <Compile Include="Assets\Snake_2D\Scripts\LevelGrid\LevelGrid.cs" />
+    <Compile Include="Assets\Snake_2D\Scripts\PlayerInput\PlayerInput.cs" />
+    <Compile Include="Assets\Snake_2D\Scripts\PopupWindow\PopupWindow.cs" />
+    <Compile Include="Assets\Snake_2D\Scripts\SnakeControl\SnakeControl.cs" />
+    <Compile Include="Assets\Snake_2D\Scripts\ViewportHandler.cs" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Unity_Installs/2019.4.18f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -617,14 +622,14 @@
     <Reference Include="Unity.Rider.Editor">
       <HintPath>C:/Unity_Projects/Snake_2D/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.DeviceSimulator.Editor">
+      <HintPath>C:/Unity_Projects/Snake_2D/Library/ScriptAssemblies/Unity.DeviceSimulator.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>C:/Unity_Projects/Snake_2D/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>C:/Unity_Projects/Snake_2D/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.DeviceSimulator.Editor">
-      <HintPath>C:/Unity_Projects/Snake_2D/Library/ScriptAssemblies/Unity.DeviceSimulator.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup></ItemGroup>

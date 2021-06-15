@@ -10,7 +10,7 @@ namespace Snake_2D
 
         public Sprite SnakeBodySprite;
         public Sprite FruitSprite;
-        public Sprite Obstackle;
+        public Sprite ObstackleSprite;
         private void Awake()
         {
             Instance = this;
