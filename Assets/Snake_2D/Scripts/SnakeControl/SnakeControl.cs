@@ -314,6 +314,8 @@ namespace Snake_2D
                 GameObject snakeBodyGameObject = new GameObject("SnakeBody", typeof(SpriteRenderer));
                 snakeBodyGameObject.GetComponent<SpriteRenderer>().sprite = GameAssets.Instance.SnakeBodySprite;
                 snakeBodyGameObject.GetComponent<SpriteRenderer>().sortingOrder = -1 - bodyIndex;
+                snakeBodyGameObject.GetComponent<Renderer>().material = GameAssets.Instance.SnakeMaterial;
+
                 transform = snakeBodyGameObject.transform;
             }
             public void SetSnakeMovePosition(SnakeMovePosition snakeMovePosition)

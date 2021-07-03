@@ -11,6 +11,7 @@ namespace Snake_2D
         public Sprite SnakeBodySprite;
         public Sprite FruitSprite;
         public Sprite ObstackleSprite;
+        public Material SnakeMaterial;
         private void Awake()
         {
             Instance = this;
